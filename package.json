@@ -1,0 +1,39 @@
+{
+  "name": "til",
+  "private": true,
+  "type": "module",
+  "description": "A repository of things I've learned.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdmurphy/til.git"
+  },
+  "keywords": [
+    "til",
+    "blog"
+  ],
+  "author": "Ryan Murphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdmurphy/til/issues"
+  },
+  "homepage": "https://github.com/rdmurphy/til#readme",
+  "devDependencies": {
+    "@rdm/prettier-config": "^2.0.0",
+    "gray-matter": "^4.0.3",
+    "hast-util-to-string": "^2.0.0",
+    "nunjucks": "^3.2.3",
+    "prettier": "^2.5.1",
+    "refractor": "^4.4.0",
+    "rehype-stringify": "^9.0.3",
+    "remark": "^14.0.2",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "totalist": "^3.0.0",
+    "unified": "^10.1.1",
+    "unist-util-visit": "^4.1.0"
+  },
+  "prettier": "@rdm/prettier-config"
+}
