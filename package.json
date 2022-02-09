@@ -22,9 +22,11 @@
   "homepage": "https://github.com/rdmurphy/til#readme",
   "devDependencies": {
     "@rdm/prettier-config": "^2.0.0",
+    "fast-glob": "^3.2.11",
     "gray-matter": "^4.0.3",
     "hast-util-to-string": "^2.0.0",
     "nunjucks": "^3.2.3",
+    "premove": "^4.0.0",
     "prettier": "^2.5.1",
     "refractor": "^4.4.0",
     "rehype-stringify": "^9.0.3",
